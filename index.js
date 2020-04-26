@@ -44,12 +44,38 @@ const questions = [
         message: 'How do you install the dependencies?'
 
 
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What does the user need to know about this repo?'
+
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: ' How do you install the tests?'
+
+
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: ' What does the user need to know about  contributing to the repo?'
+
+
 
 
     },
 
+    {
+        type: 'input',
+        name: 'license',
+        message: 'What is the license type?',
+        choices: ['MIT', 'BSD', 'Apache', 'None'],
 
 
+    },
 
 
 
