@@ -39,12 +39,14 @@ const questions = [
     },
 
     {
+        type: 'input',
+        name: 'install',
+        message: 'How do you install the dependencies?'
 
 
 
 
-
-    }
+    },
 
 
 
