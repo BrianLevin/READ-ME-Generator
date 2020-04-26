@@ -20,7 +20,16 @@ const questions = [
 
 
 
-    }
+    },
+
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is  the name of your project?'
+
+
+    },
+
 
 
 
