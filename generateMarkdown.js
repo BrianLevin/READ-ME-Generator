@@ -22,7 +22,7 @@ function generateMarkdown(data) {
  
  \`\`\`
 ## install
-${data.install}
+${data.install} 
  \`\`\`
 
 ## github

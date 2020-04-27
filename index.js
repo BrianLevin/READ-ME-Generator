@@ -1,13 +1,13 @@
-const inquirer = require('inquirer');
-const fs = require('fs')
-const path = require('path')
-const generateMarkdown = required('./generateMarkdown')
+const inquirer = require('inquirer'); // The npm package used to list the prompts for the questions
+const fs = require('fs') // the npm package used to read files
+const path = require('path') // the npm package used to link file paths
+const generateMarkdown = required('./generateMarkdown') //the created file that the generateMarkdown will go through to execute the code.
 
-const questions = [
+const questions = [ // the variable that will hold the questions
     {
-        type: 'input',
-        name: 'github',
-        message: 'what is your github username?'
+        type: 'input', // the user will input information
+        name: 'github', // the name of the question
+        message: 'what is your github username?' // the message prompt
 
 
 
@@ -72,7 +72,7 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'What is the license type?',
-        choices: ['MIT', 'BSD', 'Apache', 'None'],
+        choices: ['MIT', 'BSD', 'Apache', 'None'], // the choices for the differant license types
 
 
     },
@@ -83,12 +83,12 @@ const questions = [
 
 ];
 
-function init() {
+function init() { // function to list the questions
     inquirer.prompt(questions).then(function (answers) {
-        fs.writeFileSync('./README.md', generateMarkdown(answers));
-    });
+        fs.writeFileSync('./README.md', generateMarkdown(answers)); // the function then executes a call back function after getting the answers.
+    });                                                             // then answers are then written down and generated in the README file 
 
 
 }
 
-init();
+init(); // This will execute the  init function
