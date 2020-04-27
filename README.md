@@ -3,17 +3,17 @@
  README Generator 
 
  ## Description
- create a README Generator  answering  specific prompts
+ To create a README Generator using node.js
 
  ## Test
 
  ```
- By creating your package.json, installing the dependencies,  create the js file, and then running the server
+ By  using the terminal
  ```
  
  ```
 ## install
-By accessing the npm in the terminal 
+by using an npm package then choosing the specific package such as inquiere  
  ```
 
 ## github
@@ -24,12 +24,12 @@ bml201095@gmail.com
 
 ## usage
 ```
-That this README was completely generated using node.js
+That this README was generated using node.js
 ```
 
 ## contributing
 
- The user needs to  fork the repo and then clone it locally
+That they can contribuate anyway they see fit
 
 ## license
 
