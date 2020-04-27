@@ -81,4 +81,14 @@ const questions = [
 
 
 
-]
+];
+
+function init() {
+    inquirer.prompt(questions).then(function (answers) {
+        fs.writeFileSync('./README.md', generateMarkdown(answers));
+    });
+
+
+}
+
+init();
