@@ -5,3 +5,15 @@ function renderLicenseBadge(license) {
     return ''
 
 }
+
+function generateMarkdown(data) {
+
+
+
+
+
+
+
+
+
+}
