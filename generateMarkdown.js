@@ -20,6 +20,11 @@ function generateMarkdown(data) {
  ${data.tests}
  \`\`\`
  
+ \`\`\`
+## install
+${data.install}
+ \`\`\`
+ 
  
  `
 
