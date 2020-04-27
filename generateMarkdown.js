@@ -24,6 +24,19 @@ function generateMarkdown(data) {
 ## install
 ${data.install}
  \`\`\`
+
+## github
+${data.github}
+
+## email
+${data.email}
+
+## usage
+\`\`\`
+${data.usage}
+\`\`\`
+
+
  
  
  `
