@@ -13,6 +13,12 @@ function generateMarkdown(data) {
 
  ## Description
  ${data.description}
+
+ ## Test
+
+ \`\`\`
+ ${data.tests}
+ \`\`\`
  
  
  `
