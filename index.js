@@ -1,7 +1,7 @@
 const inquirer = require('inquirer'); // The npm package used to list the prompts for the questions
 const fs = require('fs') // the npm package used to read files
 const path = require('path') // the npm package used to link file paths
-const generateMarkdown = required('./generateMarkdown') //the created file that the generateMarkdown will go through to execute the code.
+const generateMarkdown = require('./generateMarkdown') //the created file that the generateMarkdown will go through to execute the code.
 
 const questions = [ // the variable that will hold the questions
     {
@@ -69,7 +69,7 @@ const questions = [ // the variable that will hold the questions
     },
 
     {
-        type: 'input',
+        type: 'list', // This will display the list of licenses
         name: 'license',
         message: 'What is the license type?',
         choices: ['MIT', 'BSD', 'Apache', 'None'], // the choices for the differant license types
