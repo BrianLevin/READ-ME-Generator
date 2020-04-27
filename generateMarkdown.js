@@ -48,3 +48,5 @@ ${renderLicenseBadge(data.license)}
  `;
 
 }
+
+module.exports = generateMarkdown;
