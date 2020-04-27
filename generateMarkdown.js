@@ -36,16 +36,15 @@ ${data.email}
 ${data.usage}
 \`\`\`
 
+## contributing
+
+${data.contributing}
+
+## license
+
+${renderLicenseBadge(data.license)}
 
  
- 
- `
-
-
-
-
-
-
-
+ `;
 
 }
