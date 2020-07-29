@@ -1,35 +1,35 @@
 
  # title
- README Generator 
+ README generator 
 
  ## Description
- To create a README Generator using node.js
+ This project self generates a README
 
  ## Test
 
  ```
- By  using the terminal
+ no tests installed
  ```
  
  ```
 ## install
-by using an npm package then choosing the specific package such as inquiere  
+npm inquiere  
  ```
 
 ## github
-Brian Levin
+Brian
 
 ## email
 bml201095@gmail.com
 
 ## usage
 ```
-That this README was generated using node.js
+This repo uses node to generate a README
 ```
 
 ## contributing
 
-That they can contribuate anyway they see fit
+That this repo uses node.js
 
 ## license
 
