@@ -1,19 +1,19 @@
 
  # title
- README generator 
+ README Generator 
 
  ## Description
- This project self generates a README
+ The purpose of this project was to create a README based off of the prompts the machine asks the user
 
  ## Test
 
  ```
- no tests installed
+ There are no tests for this project
  ```
  
  ```
 ## install
-npm inquiere  
+using npm install 
  ```
 
 ## github
@@ -24,12 +24,12 @@ bml201095@gmail.com
 
 ## usage
 ```
-This repo uses node to generate a README
+This README repo was self generated
 ```
 
 ## contributing
 
-That this repo uses node.js
+They can contribuate anyway they want
 
 ## license
 
